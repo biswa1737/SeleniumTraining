@@ -1,0 +1,55 @@
+####################Setting
+##################################
+chromepath=D:\\CB\\Driver\\chromedriver.exe
+url=http://rav-vm-vdi-065/RMSTraining/
+#####################################
+###################TC1
+expectedResult1=Training Module
+#####################################
+###################TC2
+trainingxpath=//*[@id='divMenu']/ul/li[2]
+raiserequestxpath=//a[@href='http://rav-vm-vdi-065/RMSTraining/Training/RaiseTrainingRequest']
+trainingtypedropvalue=Knowledge Sharing Session
+trainingtypedrop=//*[@id='TrainingType']
+fieldlabels=//label[@class="form-label"]
+label1=Training Type
+label2=Type
+label3=Agenda
+label4=Date
+label5=Topic
+label6=Presenter
+label7=Comments (if any)
+#####################################
+###################TC3
+KSStypedropxpath=//*[@id='Type']
+drop1val=Testing
+#####################################
+###################TC4
+topicxpath=//*[@id='Topic']
+#####################################
+###################TC5
+agendaxpath=//*[@id='Agenda']
+#####################################
+###################TC6
+searchbtnxpath=//*[@id='check']/img
+searchempinput=//*[@id='viewreport_filter']/label/input
+employeename=Chetan Baraskar
+searchtable=//*[@id='login-box']
+selectchkboxlistxpath=//*[@id='tblBody']/tr/td[1]
+empnameListxpath=//*[@id='tblBody']/tr/td[3]
+firstselectbtnxpath=//*[@id='BtnFirstSelect']
+presenterxpath=//*[@id='Presenter']
+#####################################
+###################TC7
+datexpath=//*[@id='Date']
+datepickerxpath=//*[@id='ui-datepicker-div']
+
+#####################################
+###################TC8
+datexpath=//*[@id='ui-datepicker-div']/table/tbody/tr/td
+dateval=20
+submitbtnxpath=//*[@id='BtnSubmit']
+
+
+
+

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> 
+<suite name="RMS Training Module Test Cases suite"> 
+<test verbose="2" name="Base Class"> 
+    <classes> 
+        <class name="AssignmentRMS.RMS.Base"/>
+    </classes> 
+  </test> 
+
+  <test verbose="2" name="Testcase 1: Raise Training Request"> 
+    <classes> 
+        <class name="AssignmentRMS.RMS.TC1"/>
+    </classes> 
+  </test> 
+  
+  <test verbose="2" name="Testcase 2:  Validate fields on screen"> 
+    <classes> 
+        <class name="AssignmentRMS.RMS.TC2"/>
+    </classes> 
+  </test> 
+  
+  
+  <test verbose="2" name="Testcase 3:  Validate KSS type field"> 
+    <classes> 
+        <class name="AssignmentRMS.RMS.TC3"/>
+    </classes> 
+  </test> 
+  
+  
+  <test verbose="2" name="Testcase 4:  Validate topic field"> 
+    <classes> 
+        <class name="AssignmentRMS.RMS.TC4"/>
+    </classes> 
+  </test> 
+  
+    <test verbose="2" name="Testcase 5:  Validate agenda field"> 
+    <classes> 
+        <class name="AssignmentRMS.RMS.TC5"/>
+    </classes> 
+  </test> 
+  
+    <test verbose="2" name="Testcase 6:  Validate Presenter field"> 
+    <classes> 
+        <class name="AssignmentRMS.RMS.TC6"/>
+    </classes> 
+  </test> 
+  
+   <test verbose="2" name="Testcase 7:  Validate date field"> 
+    <classes> 
+        <class name="AssignmentRMS.RMS.TC7"/>
+    </classes> 
+  </test> 
+  
+  
+  <test verbose="2" name="Testcase 8:  Click on Submit Button"> 
+    <classes> 
+        <class name="AssignmentRMS.RMS.TC8"/>
+    </classes> 
+  </test> 
+  
+  
+</suite> <!-- Default suite -->
